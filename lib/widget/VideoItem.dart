@@ -11,8 +11,8 @@ class VideoItem extends StatefulWidget {
 }
 
 class _VideoitemState extends State<VideoItem> {
-  final PlayList playList;
 
+  final PlayList playList;
   _VideoitemState(this.playList);
 
   Widget get videoCard {
@@ -39,6 +39,8 @@ class _VideoitemState extends State<VideoItem> {
         )
 
          );
+
+
   }
 
   @override
